@@ -709,7 +709,7 @@ video{
 }
 @font-face {
   font-family: samsungfontlight;
-  src: url(SamsungSans-light.ttf);
+  src: url(SamsungSans-Light.ttf);
 }
 h1{
   font-family: 'samsungfont';
