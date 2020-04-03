@@ -1,0 +1,100 @@
+body{
+  background-image: url('bg.jpg');
+}
+h1{
+	font-family: 'samsungfont';
+	text-align: center;
+	  font-weight: bold;
+  font-size: 300%;
+
+}
+h2{
+	background-color: #46bcde;
+	text-align: center;
+	font-family: 'samsungfont';
+  margin-left: -8px;
+  margin-right: -8px;
+
+}
+@font-face {
+  font-family: samsungfont;
+  src: url(SamsungSharpSans-Bold.ttf);
+}
+@font-face {
+  font-family: samsungfontlight;
+  src: url(SamsungSans-light.ttf);
+}
+p{
+   background-color: black;
+   color: white;
+   text-align: center;
+   font-family: 'samsungfontlight';
+   padding-top: 6px;
+   padding-bottom: 6px;
+   margin-right: 5px;
+   margin-left: 5px;
+
+}
+nav:hover{
+  transition-duration: 1s;
+  padding-top: 3%;
+  border-bottom:#46bcde 1px solid;
+
+}
+.ghar:hover{
+  transition-duration: 1s;
+  color: #46bcde;
+}
+.par:hover{
+  color: #52d273;
+}
+.rahain:hover{
+  color: #c94f64;
+}
+.c:hover{
+  color: #c57254;
+}
+.d:hover{
+  color: #e5c454;
+}
+nav{
+  box-sizing: border-box;
+  height: 0%;
+  width: 1280px;
+  text-align: center; 
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-color: #656565;
+  margin-top: -8px;
+  margin-left: -8px;
+  border-bottom:white 1px solid;
+  margin-bottom: -22px;
+  position: fixed;
+  font-family: 'samsungfont'
+}
+a{
+
+  text-decoration: none;
+  color:#cccccc;
+  padding-left: 30px;
+  font-size: 140%;
+
+
+}
+a:hover{
+  transition-duration: 1s;
+  top: 500%;
+  height: 700%;
+  color: white;
+  text-decoration-line: overline;
+}
+.img{
+  padding-left: 45%;
+  padding-right:575px; 
+  margin-left: -8px;
+  margin-bottom: -40px;
+  padding-bottom: 25px;
+  
+  padding-top: 80px;
+
+}
